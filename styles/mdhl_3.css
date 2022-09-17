@@ -1,18 +1,18 @@
 body {
-    /* width: 100%; */
-    font-family: "Lobster", cursive; ;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo-container{
-    width: 8%;
-    background-color: black;
+    width: 100%;
+    /* background-color: rgb(14, 4, 59); */
     display: flex;
     position: absolute;
-    justify-content: center;
+    justify-content: center;  
+    top: 185px;  
 }
 
 .logo {
-    width: 70px;
+    width: 190px;
 }
 
 nav {
@@ -23,6 +23,27 @@ nav {
 .list-container {
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
+    width: 35%;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.black-button {
+    background-color: rgb(0, 0, 0);
+}
+
+.yellow-button {
+    background-color: rgb(235, 177, 42);
 }
 
 
