@@ -46,6 +46,19 @@ a {
     background-color: rgb(235, 177, 42);
 }
 
+.h1-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 370px;
+}
+
+h1 {
+    font-size: 40px;
+    
+}
+
 
 
 
