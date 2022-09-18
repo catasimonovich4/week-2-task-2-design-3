@@ -89,7 +89,22 @@ h1 {
     background-color: rgb(235, 177, 42, 0.9);
     position: absolute;
     top: 120px;
-    left: 370px;
+    left: 360px;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.textC-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: absolute;
+    top: 280px;
+    left: 470px;
     border-radius: 7%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -120,3 +135,12 @@ h3 {
     font-size: 16px;
     font-weight: 500;
 }
+
+.Cparagraph {
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
