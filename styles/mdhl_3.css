@@ -70,15 +70,29 @@ h1 {
     justify-content: center;
     flex-direction: column;
     width: 40%;
+    padding: 10px;
     background-color: rgb(235, 177, 42, 0.9);
     position: absolute;
     top: 240px;
-    left: 420px;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    left: 390px;
     border-radius: 7%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+}
+
+.textA-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    padding: 10px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: absolute;
+    top: 120px;
+    left: 370px;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 h2 {
@@ -95,8 +109,14 @@ h3 {
     font-size: 20px;
 }
 
-.event {
+.paragraph {
     margin-top: -12px;
     font-size: 17px;
+    font-weight: 500;
+}
+
+.Aparagraph {
+    margin-top: -12px;
+    font-size: 16px;
     font-weight: 500;
 }
